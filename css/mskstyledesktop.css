@@ -1,0 +1,53 @@
+@media screen and (min-width: 1024px){
+	#main{
+		width: 1366;
+		height: 1312;
+	}
+	#top{
+		height: 608;
+		background-image: url(../backgrounds/vid.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+	}
+	#bottom{
+		height: 704;
+	}
+	#video{
+		height: 21em;
+		width: 34em;
+	}
+	.kreis.tausch{
+		margin-left: 10%;
+	}
+	.kreis.liefern{
+		margin-left: 34%;
+	}
+	.kreis.qualitaet{
+		margin-left: 58%;
+	}
+	.kreis.gebuehr{
+		margin-top: 15%;
+		margin-left: 22%;
+	}
+	.kreis.rabatt{
+		margin-top: 15%;
+		margin-left: 46%;
+	}
+	.kreis{
+		width: 250;
+		height: 250;
+		position: absolute;
+	}
+	h1{
+		color: #66cdaa;
+		font-size: 300%;
+		font-style: bold;
+		margin-bottom:0;
+		padding-bottom:0;
+		margin-top:0;
+		padding-top:10;
+	}
+}

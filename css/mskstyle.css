@@ -1,0 +1,138 @@
+#main{
+	text-align:center;
+	font-family:sans-serif;
+	background-color: #EFFBEF;
+}
+.row{
+	background-color: #EFFBEF;
+}
+.kreis.tausch{
+	border:1px solid #ff6347;
+}
+.kreis.liefern{
+	border:1px solid #66cdaa;
+}
+.kreis.qualitaet{
+	border:1px solid #b22222;
+}
+.kreis.gebuehr{
+	border:1px solid #9acd32;
+}
+.kreis.rabatt{
+	border:1px solid #daa520;
+}
+p{
+	text-align:center;
+	font-size: 60%;
+}
+p.tausch{
+	color: #ff6347;
+	font-size: 100%;
+}
+p.liefern{
+	color: #66cdaa;
+	font-size: 100%;
+}
+p.qualitaet{
+	color: #b22222;
+	font-size: 100%;
+}
+p.gebuehr{
+	color: #9acd32;
+	font-size: 100%;
+}
+p.rabatt{
+	color: #daa520;
+	font-size: 100%;
+}
+img{
+	width: 25%;
+	height:auto;
+	margin-top: 10%;
+}
+h1{
+	color: #66cdaa;
+	font-size: 300%;
+	font-style: bold;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+h2{
+	font-size: 80%;
+	color: #A4A4A4;
+	font-weight: lighter;
+}
+h3{
+	color: white;
+	font-size: 50%;
+}
+h4{
+	color: #66cdaa;
+	font-size: 230%;
+	font-weight: lighter;
+}
+.center{
+	margin: auto;
+}
+.testButton {
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+	background-color:#b8e356;
+	border-radius:6px;
+	border:1px solid #83c41a;
+	display:inline-block;
+	color:#ffffff;
+	font-size:120%;
+	font-weight:bold;
+	padding:1em 2em;
+	text-decoration:none;
+	text-shadow:0 10% 0 #86ae47;
+	margin-top: 2.5%;
+}
+.testButton:hover {
+	background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+	background-color:#a5cc52;
+}
+.testButton:active {
+	position:relative;
+	top:1px;
+}
+.verweisbutton {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+	border: 2px solid #32cd32;
+    border-radius: 50%;
+    transition: all 100ms ease;
+	text-decoration: none;
+}
+.verweisbutton:hover {
+    transform: translate(0, -3px);
+	text-decoration: none;
+}
+.verweisbutton:active {
+    transform: scale(.98);
+	text-decoration: none;
+}
+.kreis{
+    width: 200;
+    height: 200;
+    background-color: white;
+	border: 2px solid;
+    border-radius: 50%;
+    transition: all 100ms ease;
+	text-decoration: none;
+}
+.kreis:hover{
+    transform: translate(0, -3px);
+	text-decoration: none;
+}
+.kreis:active{
+    transform: scale(.98);
+	text-decoration: none;
+}
+.pfeil{
+	margin-top: 30%;
+	width: 20px;
+	height: 20px;
+}

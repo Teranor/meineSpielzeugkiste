@@ -1,0 +1,64 @@
+@media screen and (max-width: 480px) {
+	#main{
+		width: 375;
+		height: 1516;
+	}
+	#top {
+		height:  489px;
+		background-color: #FFF7E1;
+		box-shadow:2px 2px 6px  #292929;
+	}
+	#bottom{
+		height: 1027;
+	}
+	.verweisbutton{
+		display:none;
+	}
+	.testButton{
+		font-size:100%;
+	}
+	h1{
+		font-size: 200%;
+		margin-top:0;
+		padding-top:10;	
+	}
+	h2{
+		font-size: 1.1em;
+	}
+	h3{
+		font-size: 70%;
+		margin-top:5;
+		color: #A4A4A4;
+	}
+	h4{
+		font-size: 2em;
+		margin-top: 20;
+	}
+	#video{
+		height: 15em;
+		width: 20em;
+	}
+	.kreis{
+		width: 250;
+		height: 250;
+		margin: auto;
+	}
+	.kreis.tausch{
+	margin-bottom: 5%;
+	}
+	.kreis.liefern{
+	margin-bottom: 5%;
+	}
+	.kreis.qualitaet{
+	margin-bottom: 5%;
+	}
+	.kreis.gebuehr{
+	margin-bottom: 5%;
+	}
+	.kreis.rabatt{
+	margin-bottom: 5%;
+	}
+	.bold{
+		font-weight: bold;
+	}
+}
